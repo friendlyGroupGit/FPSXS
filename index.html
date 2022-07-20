@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>FPSBoostXS</title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+   <script src="script.js"></script>
+   <script>
+
+        $(function(){
+            $('a').each(function(){
+                if ($(this).prop('href') == window.location.href) {
+                    $(this).addClass('active'); $(this).parents('li').addClass('active');
+                }
+            });
+        });
+    </script>
+
+</head>
+<header>
+    <div class="navbar" id="navbar">
+        <nav class="navigation hide" id="navigation">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <img src="png/website.png" alt="">
+                </li>
+                <li class="nav-item">
+                    <a href="help.html">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html">Blog</a>
+                    <li class="nav-item">
+                        <a href="download.html">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                   
+                </li>
+            </ul>
+        </nav>
+        
+   
+    </div>
+</header>
+<body>
+    <div class="image-text">
+      <img src="png/pexels-yan-krukov-9072292.png" alt="">
+      <h1 class="text-icon">
+        <img src="png/xs.png">
+        FPSBoostXS
+        <img src="png/xs.png">
+      </h1>
+      <div class="image-description">A new level of preformance.</div>
+    </div>
+
+    <div class="image-button"> 
+
+      <form action="download.html">
+<input type="submit" value="Download Today!">
+      </form>
+        
+    </div>
+
+    <div class="cont">
+    <button data-modal-target="#aa" class="aa"><img src="png/info.png"></button>
+        <div class="modal" id="aa">
+         <div class="modal-header">
+           <div class ="title">Manitoba Act of 1870</div>
+           <button data-close-button class="close-button">X</button>
+         </div>
+        <div class="modal-body"> 
+        <h2>In 1870 the Manitoba Act was signed after Louis Riel's Provisional government showed the government a bill of rights. This established the 5th Province of Canada called Manitoba. </h2>
+        </div>
+         </div>
+         <div id="overlay"></div>   
+    </div>
+
+</body>
+</html>

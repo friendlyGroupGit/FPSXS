@@ -1,5 +1,4 @@
 
-
 @echo off
 echo ^<html^>^<head^>^<title^>BSOD^
 </title^> > bsod.hta
